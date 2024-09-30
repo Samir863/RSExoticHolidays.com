@@ -10,10 +10,10 @@ html {
 
 
 body {
-    background-image: url(B1.jpg);
+    background-image: url(images/bg1.png);
     background-size: cover;
-    background-attachment: fixed;
-    color: white;
+    background-repeat: no-repeat;
+    color: rgb(255, 250, 250);
     font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
     overflow-y: scroll;
@@ -38,6 +38,7 @@ nav{
     width: 100%;
     background-color: rgb(137, 207, 240);
     position: fixed;
+    top: 0;
 }
 
 nav ul{
@@ -57,7 +58,7 @@ nav ul li a{
     font-weight: 550;
 }
 nav ul li a:hover{
-    color: rgb(0, 0, 255);
+    color: rgb(0, 100, 255);
     transition: color 0.3s ease;
 }
 
@@ -89,10 +90,18 @@ li a, .dropbtn {
   }  
     
   .dropdown-content a:hover {  
-  color:rgb(0, 0, 255);  
+  color:rgb(0, 100, 255);  
   }  
     
   .dropdown:hover .dropdown-content {  
     display: block;  
   }  
   
+
+  .body1 {
+    margin-top: 100px;
+    letter-spacing: 18px;
+    text-align: center;
+    font-size: 70px;
+    font-weight: 1000;
+  }
