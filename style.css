@@ -13,6 +13,9 @@ body {
     background-image: url(images/bg1.png);
     background-size: cover;
     background-repeat: no-repeat;
+    /*background-size: 100% 105%;*/
+    width: 100%;
+    height: 600px;
     color: rgb(255, 250, 250);
     font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
@@ -27,7 +30,6 @@ body {
 .body a:hover{
     color: #bcbcbc;
 }
-
 
 
 nav{
@@ -96,7 +98,7 @@ li a, .dropbtn {
   .dropdown:hover .dropdown-content {  
     display: block;  
   }  
-  
+
 
   .body1 {
     margin-top: 100px;
@@ -104,4 +106,48 @@ li a, .dropbtn {
     text-align: center;
     font-size: 70px;
     font-weight: 1000;
+    text-shadow: 3px 3px 3px black;
   }
+
+ .body1-1 {
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    margin-top: px;
+    
+ }
+
+ .body1-2 {
+    text-align: center;
+    margin-top: 250px;
+    color: white;
+    font-style: italic;
+ }
+
+ .heading1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    color: black;
+    font-size: 50px;
+    letter-spacing: 0.5px;
+    font-weight: 550;
+ }
+
+ .firstsection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 50px 0px 50px;
+
+ }
+
+ .firstleft{
+    color: black;
+    font-size: 10px;
+ }
+
+ .firstright{
+    color: black;
+    font-size: 10px;
+ }
